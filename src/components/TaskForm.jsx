@@ -44,7 +44,7 @@ const TaskForm = ({ setTasks }) => {
             onChange={handleChange}
           />
 
-          <div className="flex justify-between">
+          <div className="flex justify-between md:mt-5 mt-3">
             <select
               name="status"
               value={taskData.status}
